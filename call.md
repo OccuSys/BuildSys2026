@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Call for Papers
+permalink: /call/
 ---
+
 
 # Call for Papers
 
