@@ -16,6 +16,13 @@ The energy transition presents unprecedented opportunities to rethink how we mod
 
 ---
 
+<div class="section-card">
+<strong>Submit to OccuSys</strong><br>
+Submission deadline: <strong>April 10, 2026 (AoE)</strong><br>
+Notification: <strong>April 20, 2026</strong> · Camera-ready: <strong>May 5, 2026</strong>
+</div>
+
+---
 <a id="about"></a>
 
 ## About the Workshop
