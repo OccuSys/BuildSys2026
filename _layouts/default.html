@@ -9,8 +9,6 @@
 </head>
 
 <body class="page-ribbon">
-
-
   <header class="header">
     <div class="container">
       <div class="brand">
@@ -27,7 +25,9 @@
   </header>
 
   <main class="container main">
-    {{ content }}
+    <div class="content">
+      {{ content }}
+    </div>
   </main>
 
   <footer class="footer">
@@ -35,6 +35,5 @@
       © {{ "now" | date: "%Y" }} OccuSys Workshop · ACM BuildSys 2026
     </div>
   </footer>
-
 </body>
 </html>
