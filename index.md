@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 <a id="home"></a>
@@ -10,7 +11,7 @@ title: Home
 ### ACM BuildSys 2026 · Banff, Canada
 
 <div class="callout">
-The energy transition presents unprecedented opportunities to rethink how we model, predict, and respond to occupant behavior.
+The energy transition presents unprecedented opportunities to rethink how we model, predict, and respond to occupant behavior. From personalized thermal comfort control and human-in-the-loop systems to data-driven behavior prediction and adaptive building automation, emerging technologies enable buildings to become truly occupant-centric.
 </div>
 
 ---
@@ -25,7 +26,7 @@ The workshop aims to:
 
 - Share frameworks, datasets, and best practices  
 - Identify research gaps and future directions  
-- Foster collaboration between academia and industry  
+- Foster collaboration between academic researchers and industry practitioners  
 
 ---
 
@@ -34,20 +35,25 @@ The workshop aims to:
 ## Topics of Interest
 
 ### Modeling approaches
-- Data-driven vs physics-based vs hybrid models  
+- Data-driven vs. physics-based vs. hybrid models  
 - Personal comfort models and preference learning  
-- Occupancy detection and prediction  
+- Occupancy detection and prediction methods  
 
-### Control & optimization
+### Control and optimization
 - Occupant-centric controls  
 - Adaptive and personalized comfort control  
-- MPC with behavior forecasting  
+- Model predictive control with behavior forecasting  
 - Privacy-preserving controls  
 
-### Energy integration
-- Demand response enabled by occupant behavior  
-- Thermal energy storage and flexibility  
-- Building-to-grid services  
+### Beyond static comfort boundaries
+- Adaptive thermal comfort models in practice  
+- Context-dependent comfort  
+- Thermal comfort equity and individual differences  
+
+### Integration with energy systems
+- Demand response enabled by occupant behavior prediction  
+- Thermal energy storage and occupant flexibility  
+- Building-to-grid services considering occupant comfort  
 
 ---
 
@@ -66,9 +72,8 @@ The workshop aims to:
 
 ## Submission
 
-Submission guidelines will follow ACM BuildSys workshop policies.
-
-More details coming soon.
+Submission guidelines will follow ACM BuildSys workshop policies.  
+Submission platform details will be announced soon.
 
 ---
 
@@ -77,7 +82,7 @@ More details coming soon.
 ## Organizing Committee
 
 - Ava Mohammadi (TU/e)  
-- (Add others here)
+- (Add additional organizers here)
 
 ---
 
@@ -85,5 +90,6 @@ More details coming soon.
 
 ## Contact
 
-For questions, please contact:  
-**occusys.workshop@gmail.com** (or update with official email)
+For questions, please contact:
+
+**occusys.workshop@gmail.com**
