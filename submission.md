@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Submission
+permalink: /submission/
 ---
+
 
 # Submission
 
