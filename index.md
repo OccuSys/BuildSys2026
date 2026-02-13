@@ -6,7 +6,8 @@ permalink: /
 
 <a id="home"></a>
 
-<div class="hero"></div>
+<div class="hero"><div class="ribbon-back"></div></div>
+
 
 # Occupant-Centric Energy Systems (OccuSys)
 
