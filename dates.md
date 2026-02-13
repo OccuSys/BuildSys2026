@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Important Dates
+permalink: /dates/
 ---
 
 # Important Dates (AoE)
