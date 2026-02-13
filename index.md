@@ -6,17 +6,37 @@ permalink: /
 
 <a id="home"></a>
 
-<div class="hero"><div class="ribbon-back"></div></div>
+<div class="hero-block">
 
+<div class="hero-top">
+  <div class="badge">
+    <span class="badge-dot"></span>
+    ACM BuildSys 2026 Workshop · Banff, Canada
+  </div>
 
-# Occupant-Centric Energy Systems (OccuSys)
+  # Occupant-Centric Energy Systems (OccuSys)
 
-## Modeling and Control Beyond Static Boundaries
+  <p class="hero-sub">
+    Modeling and Control Beyond Static Boundaries — occupant-aware comfort, behavior, and grid flexibility for the next generation of building energy systems.
+  </p>
 
-### ACM BuildSys 2026 · Banff, Canada
+  <div class="hero-meta">
+    <span class="pill"><strong>Submission</strong> April 10, 2026 (AoE)</span>
+    <span class="pill"><strong>Notification</strong> April 20, 2026</span>
+    <span class="pill"><strong>Camera-ready</strong> May 5, 2026</span>
+  </div>
 
-<div class="callout">
-The energy transition presents unprecedented opportunities to rethink how we model, predict, and respond to occupant behavior. From personalized thermal comfort control and human-in-the-loop systems to data-driven behavior prediction and adaptive building automation, emerging technologies enable buildings to become truly occupant-centric.
+  <div class="cta-row">
+    <a class="btn primary" href="#submission">Submit</a>
+    <a class="btn" href="#topics">Topics</a>
+    <a class="btn" href="#dates">Important Dates</a>
+  </div>
+</div>
+
+<div class="hero-ribbon">
+  <div class="ribbon-back"></div>
+</div>
+
 </div>
 
 ---
