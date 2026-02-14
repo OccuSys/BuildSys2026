@@ -1,10 +1,13 @@
 :root{
   --max-width: 1120px;
 
-  /* Increase this so anchors never hide under the sticky header */
+  /* desktop sticky header height (approx) */
   --header-height: 120px;
 
-  /* LIGHT THEME TOKENS (keep accents for ribbon + CTA) */
+  /* anchor offset MUST follow header height */
+  --anchor-offset: calc(var(--header-height) + 14px);
+
+  /* LIGHT THEME TOKENS */
   --bg0: #ffffff;
   --bg1: #f7f9ff;
 
@@ -38,7 +41,6 @@ body{
   line-height:1.65;
   color: var(--text);
 
-  /* Light page background with subtle energy gradients */
   background:
     radial-gradient(1200px 600px at 15% 10%, rgba(122,77,255,0.14), transparent 58%),
     radial-gradient(1000px 520px at 75% 25%, rgba(0,183,199,0.12), transparent 58%),
@@ -52,7 +54,7 @@ body{
   padding: 0 22px;
 }
 
-/* Header (lighter grey, stands out) */
+/* Header */
 .header{
   position: sticky;
   top: 0;
@@ -62,9 +64,9 @@ body{
   background: var(--header-bg);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-
   border-bottom: 1px solid var(--header-border);
 }
+
 .header-inner{
   display:flex;
   align-items:center;
@@ -72,17 +74,14 @@ body{
   gap: 18px;
 }
 
-.brand{
-  min-width: 220px;
-}
+.brand{ min-width: 220px; }
 
 .brand-title{
-  font-weight: 900;      /* stronger */
-  font-size: 18px;       /* slightly bigger */
+  font-weight: 900;
+  font-size: 18px;
   letter-spacing: 0.3px;
   color: var(--header-text);
 }
-
 
 .brand-subtitle{
   font-size: 12.5px;
@@ -96,23 +95,21 @@ body{
   align-items:center;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 0; /* IMPORTANT: remove the old drop-down spacing */
+  margin-top: 0;
 }
 
 .nav a{
   text-decoration:none;
   color: var(--header-text);
-  font-weight: 700;          /* slightly stronger */
-  font-size: 15.5px;         /* larger than before */
-  letter-spacing: 0.2px;     /* subtle polish */
+  font-weight: 700;
+  font-size: 15.5px;
+  letter-spacing: 0.2px;
 
   padding: 8px 14px;
   border-radius: 999px;
   border: 1px solid transparent;
-
   transition: transform .15s ease, background .2s ease, border-color .2s ease, color .2s ease;
 }
-
 
 .nav a:hover{
   background: rgba(255,255,255,0.10);
@@ -121,30 +118,13 @@ body{
   color: #fff;
 }
 
-@media (max-width: 920px){
-  .header-inner{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .nav{ width: 100%; }
-}
-
 /* Main */
 .main{
-  padding: 34px 22px 72px;
+  padding: 34px 0 72px;
 }
 
-/* Anchor offset (fix overlap under sticky header) */
-:root{ --anchor-offset: calc(var(--header-height) + 12px); }
-
+/* ✅ FIX: Anchor offset for sticky header (desktop + mobile) */
 [id]{ scroll-margin-top: var(--anchor-offset); }
-
-/* If your headings DON'T have ids, keep this. Otherwise remove it. */
-/* h2, h3{ scroll-margin-top: var(--anchor-offset); } */
-
-@media (max-width: 720px){
-  :root{ --header-height: 140px; } /* header wraps on mobile */
-}
 
 /* Hero block */
 .hero-block{
@@ -156,7 +136,8 @@ body{
   background: var(--panel);
   box-shadow: 0 18px 60px rgba(15,23,42,0.14);
 
-  padding: 26px 26px 210px; /* extra bottom space for ribbon-as-background */
+  /* room for ribbon background */
+  padding: 26px 26px 200px;
 }
 
 /* content always above ribbon */
@@ -198,7 +179,6 @@ h1{
   color: rgba(15,23,42,0.95);
 }
 
-
 .hero-sub{
   margin: 0;
   font-size: 18px;
@@ -206,7 +186,6 @@ h1{
   max-width: 70ch;
 }
 
-/* Meta row now can include the submit button inline */
 .hero-meta{
   display:flex;
   flex-wrap: wrap;
@@ -262,33 +241,29 @@ h1{
 }
 
 .btn.primary:hover{
-  transform: translateY(-1px);
   filter: brightness(1.03);
 }
 
-/* Smaller submit button for the meta row */
 .btn.small{
   padding: 8px 12px;
   border-radius: 999px;
   font-size: 14px;
 }
 
-/* Ribbon as BACKGROUND inside hero (no longer a big separate block) */
+/* Ribbon as BACKGROUND inside hero */
 .hero-ribbon{
   position: absolute;
   left: 18px;
   right: 18px;
   bottom: 18px;
 
-  height: 160px;
+  height: 145px;              /* ✅ tighter than before */
   border-radius: 18px;
   overflow:hidden;
 
-  /* subtle “frame” so it feels embedded */
   border: 1px solid rgba(15,23,42,0.08);
   background: rgba(255,255,255,0.55);
 
-  /* fade edges */
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 7%, black 93%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 7%, black 93%, transparent 100%);
 
@@ -325,14 +300,8 @@ h1{
   animation: drift-back 34s linear infinite;
 }
 
-@keyframes drift-front{
-  from { transform: translateX(0); }
-  to   { transform: translateX(-25%); }
-}
-@keyframes drift-back{
-  from { transform: translateX(0); }
-  to   { transform: translateX(-18%); }
-}
+@keyframes drift-front{ from { transform: translateX(0); } to { transform: translateX(-25%); } }
+@keyframes drift-back{  from { transform: translateX(0); } to { transform: translateX(-18%); } }
 
 @media (prefers-reduced-motion: reduce){
   .hero-ribbon::before{ animation:none; }
@@ -369,8 +338,20 @@ li{ margin: 6px 0; color: var(--text); }
 
 /* Mobile */
 @media (max-width: 920px){
-  h1{ font-size: 40px; }
-  :root{ --header-height: 132px; } /* a bit more for wrapped nav */
-  .hero-block{ padding-bottom: 190px; }
-  .hero-ribbon{ height: 140px; left: 14px; right: 14px; bottom: 14px; }
+  .header-inner{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav{ width: 100%; }
+
+  /* ✅ IMPORTANT: update BOTH header height AND anchor offset */
+  :root{
+    --header-height: 148px; /* increase if your nav wraps to 2 lines */
+    --anchor-offset: calc(var(--header-height) + 16px);
+  }
+
+  .container{ padding: 0 16px; } /* nicer margins on phone */
+
+  .hero-block{ padding: 22px 18px 175px; }
+  .hero-ribbon{ height: 125px; left: 14px; right: 14px; bottom: 14px; }
 }
