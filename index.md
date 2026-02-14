@@ -11,11 +11,8 @@ permalink: /
 <div class="hero-top">
   <div class="badge">
     <span class="badge-dot"></span>
-    ACM BuildSys 2026 Workshop · Banff, Canada
-  </div>
-  
-
-  # Occupant-Centric Energy Systems (OccuSys)
+    Occupant-Centric Energy Systems (OccuSys)
+  </div> 
 
   <p class="hero-sub">
     Modeling and Control Beyond Static Boundaries — occupant-aware comfort, behavior, and grid flexibility for the next generation of building energy systems.
