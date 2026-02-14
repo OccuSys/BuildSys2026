@@ -13,6 +13,7 @@ permalink: /
     <span class="badge-dot"></span>
     ACM BuildSys 2026 Workshop · Banff, Canada
   </div>
+  
 
   # Occupant-Centric Energy Systems (OccuSys)
 
@@ -24,7 +25,6 @@ permalink: /
     <span class="pill"><strong>Submission</strong> April 10, 2026 (AoE)</span>
     <span class="pill"><strong>Notification</strong> April 20, 2026</span>
     <span class="pill"><strong>Camera-ready</strong> May 5, 2026</span>
-    
     <a class="btn primary small" href="#submission">Submit</a>
   </div>
 
