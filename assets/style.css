@@ -1,6 +1,8 @@
 :root{
   --max-width: 1120px;
-  --header-height: 96px;
+
+  /* Increase this so anchors never hide under the sticky header */
+  --header-height: 120px;
 
   /* LIGHT THEME TOKENS (keep accents for ribbon + CTA) */
   --bg0: #ffffff;
@@ -13,11 +15,11 @@
   --text: rgba(15,23,42,0.92);
   --muted: rgba(51,65,85,0.72);
 
-  /* header (soft dark gray) */
-  --header-bg: rgba(30, 33, 40, 0.92);
+  /* header (lighter charcoal glass) */
+  --header-bg: rgba(55, 60, 70, 0.86);
   --header-text: rgba(255,255,255,0.92);
-  --header-muted: rgba(255,255,255,0.70);
-  --header-border: rgba(255,255,255,0.10);
+  --header-muted: rgba(255,255,255,0.72);
+  --header-border: rgba(255,255,255,0.12);
 
   --accentA: #7a4dff;
   --accentB: #00b7c7;
@@ -50,7 +52,7 @@ body{
   padding: 0 22px;
 }
 
-/* Header (grey, stands out) */
+/* Header (lighter grey, stands out) */
 .header{
   position: sticky;
   top: 0;
@@ -96,8 +98,8 @@ body{
 }
 
 .nav a:hover{
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.16);
   transform: translateY(-1px);
   color: #fff;
 }
@@ -107,8 +109,9 @@ body{
   padding: 34px 0 72px;
 }
 
-/* Anchor offset */
-[id]{ scroll-margin-top: var(--header-height); }
+/* Anchor offset (fix overlap under sticky header) */
+[id]{ scroll-margin-top: calc(var(--header-height) + 12px); }
+h2, h3{ scroll-margin-top: calc(var(--header-height) + 12px); }
 
 /* Hero block */
 .hero-block{
@@ -117,13 +120,13 @@ body{
   overflow: hidden;
   border: 1px solid var(--border);
 
-  /* keep contrast so ribbon stays “premium” */
   background: var(--panel);
   box-shadow: 0 18px 60px rgba(15,23,42,0.14);
 
-  padding: 26px 26px 24px;
+  padding: 26px 26px 210px; /* extra bottom space for ribbon-as-background */
 }
 
+/* content always above ribbon */
 .hero-top{
   display:flex;
   flex-direction: column;
@@ -169,9 +172,11 @@ h1{
   max-width: 70ch;
 }
 
+/* Meta row now can include the submit button inline */
 .hero-meta{
   display:flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 10px;
   margin-top: 10px;
   color: rgba(15,23,42,0.72);
@@ -186,16 +191,10 @@ h1{
   border-radius: 999px;
   border: 1px solid rgba(15,23,42,0.10);
   background: rgba(15,23,42,0.04);
+  white-space: nowrap;
 }
 
 .pill strong{ color: rgba(15,23,42,0.95); font-weight: 750; }
-
-.cta-row{
-  display:flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 14px;
-}
 
 /* Buttons */
 .btn{
@@ -212,7 +211,7 @@ h1{
   text-decoration:none;
 
   font-weight: 750;
-  transition: transform .15s ease, background .2s ease, border-color .2s ease;
+  transition: transform .15s ease, background .2s ease, border-color .2s ease, filter .2s ease;
 }
 
 .btn:hover{
@@ -233,20 +232,34 @@ h1{
   filter: brightness(1.03);
 }
 
-/* Ribbon area (KEEP animation + svg exactly, just light frame) */
+/* Smaller submit button for the meta row */
+.btn.small{
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+/* Ribbon as BACKGROUND inside hero (no longer a big separate block) */
 .hero-ribbon{
-  margin-top: 18px;
-  position: relative;
-  height: 200px;
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+
+  height: 160px;
   border-radius: 18px;
   overflow:hidden;
-  border: 1px solid rgba(15,23,42,0.10);
 
-  /* important: slightly darker than panel so the ribbon reads well */
-  background: rgba(255,255,255,0.76);
+  /* subtle “frame” so it feels embedded */
+  border: 1px solid rgba(15,23,42,0.08);
+  background: rgba(255,255,255,0.55);
 
+  /* fade edges */
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 7%, black 93%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0%, black 7%, black 93%, transparent 100%);
+
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* FRONT ribbon layer */
@@ -272,7 +285,6 @@ h1{
   width:200%;
   height:100%;
   opacity:0.55;
-  pointer-events:none;
 
   background:no-repeat center/100% 100%;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2200' height='260' viewBox='0 0 2200 260'%3E%3Cdefs%3E%3ClinearGradient id='g2' x1='0' x2='1'%3E%3Cstop offset='0' stop-color='%23ffb000'/%3E%3Cstop offset='0.18' stop-color='%23ff4d8d'/%3E%3Cstop offset='0.45' stop-color='%237a4dff'/%3E%3Cstop offset='0.70' stop-color='%2300b7c7'/%3E%3Cstop offset='1' stop-color='%2390e8b0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='none' stroke='url(%23g2)' stroke-linecap='round'%3E%3Cg opacity='0.55' stroke-width='1.2'%3E%3Cpath d='M-140 176 C 180 252 520 32 820 176 C 1120 252 1440 32 1760 176 C 2020 150 2100 210 2340 176'/%3E%3Cpath d='M-140 170 C 180 246 520 38 820 170 C 1120 246 1440 38 1760 170 C 2020 150 2100 204 2340 170'/%3E%3Cpath d='M-140 164 C 180 240 520 44 820 164 C 1120 240 1440 44 1760 164 C 2020 150 2100 198 2340 164'/%3E%3Cpath d='M-140 158 C 180 234 520 50 820 158 C 1120 234 1440 50 1760 158 C 2020 150 2100 192 2340 158'/%3E%3Cpath d='M-140 152 C 180 228 520 56 820 152 C 1120 228 1440 56 1760 152 C 2020 150 2100 186 2340 152'/%3E%3Cpath d='M-140 146 C 180 222 520 62 820 146 C 1120 222 1440 62 1760 146 C 2020 150 2100 180 2340 146'/%3E%3Cpath d='M-140 140 C 180 216 520 68 820 140 C 1120 216 1440 68 1760 140 C 2020 150 2100 174 2340 140'/%3E%3Cpath d='M-140 134 C 180 210 520 74 820 134 C 1120 210 1440 74 1760 134 C 2020 150 2100 168 2340 134'/%3E%3Cpath d='M-140 128 C 180 204 520 80 820 128 C 1120 204 1440 80 1760 128 C 2020 150 2100 162 2340 128'/%3E%3Cpath d='M-140 122 C 180 198 520 86 820 122 C 1120 198 1440 86 1760 122 C 2020 150 2100 156 2340 122'/%3E%3Cpath d='M-140 116 C 180 192 520 92 820 116 C 1120 192 1440 92 1760 116 C 2020 150 2100 150 2340 116'/%3E%3Cpath d='M-140 110 C 180 186 520 98 820 110 C 1120 186 1440 98 1760 110 C 2020 150 2100 144 2340 110'/%3E%3C/g%3E%3Cg opacity='0.20' stroke-width='1.1'%3E%3Cpath d='M-140 196 C 180 260 520 10 820 196 C 1120 260 1440 10 1760 196 C 2020 160 2100 230 2340 196'/%3E%3Cpath d='M-140 90 C 180 170 520 120 820 90 C 1120 170 1440 120 1760 90 C 2020 130 2100 70 2340 90'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -298,7 +310,7 @@ a{ color: rgba(15,23,42,0.92); }
 a:hover{ color: rgba(15,23,42,0.98); }
 
 ul{ margin: 10px 0 0 20px; }
-li{ margin: 6px 0; color: var(--muted); }
+li{ margin: 6px 0; color: var(--text); }
 
 .section-title{
   margin-top: 46px;
@@ -324,5 +336,7 @@ li{ margin: 6px 0; color: var(--muted); }
 /* Mobile */
 @media (max-width: 920px){
   h1{ font-size: 40px; }
-  .hero-ribbon{ height: 175px; }
+  :root{ --header-height: 132px; } /* a bit more for wrapped nav */
+  .hero-block{ padding-bottom: 190px; }
+  .hero-ribbon{ height: 140px; left: 14px; right: 14px; bottom: 14px; }
 }
