@@ -87,7 +87,24 @@ The workshop aims to:
 
 ## Submission
 
-Submission guidelines will follow ACM BuildSys workshop policies.
+We invite submissions of **original research and work in progress** related to occupant-centric energy systems. Submissions must be unpublished and not under review for any other venue.
+
+Papers must be **at most 6 pages (single-spaced, US Letter 8.5” × 11”)**, including figures, tables, references, and appendices.
+
+Submissions must use the official [ACM proceedings template (sigconf format)](https://www.acm.org/publications/proceedings-template)
+(LaTeX preferred or Word). and comply with ACM formatting requirements (9-pt font). Authors must anonymize their manuscripts by:
+- Enabling the `anonymous` option in the template
+- Using the `anonsuppress` section where appropriate  
+
+Papers that do not comply with size, formatting, or anonymization requirements will not be reviewed.
+
+All papers must be submitted via **HotCRP**:  
+[https://occusys.hotcrp.com/](https://occusys.hotcrp.com/)
+
+Registration is handled through the official  
+[ACM BuildSys 2026 website](https://buildsys.acm.org/2026/).
+
+
 
 ---
 
@@ -95,8 +112,13 @@ Submission guidelines will follow ACM BuildSys workshop policies.
 
 ## Organizing Committee
 
-- Ava Mohammadi (TU/e)  
-- (Add others here)
+- Prof. Zoltan Nagy (TU/e)  
+- Prof. Michael Kane (Northeastern University)
+- Dr. Maharshi Pathak (Northeastern University)
+- Dr. Martin Mosteiro Romero (TU Delft)
+- Dr. Wei Luo (TU/e)
+- Mahnaz Vahdat (Northeastern University)
+- Ava Mohammadi (TU/e)
 
 ---
 
@@ -106,4 +128,4 @@ Submission guidelines will follow ACM BuildSys workshop policies.
 
 For questions, please contact:
 
-**occusys.workshop@gmail.com**
+**z.nagy@tue.nl**
