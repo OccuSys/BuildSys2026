@@ -259,7 +259,8 @@ h1{
   left: 16px;
   right: 16px;
   bottom: 16px;
-  height: 88px;
+  height: clamp(60px, 8vw, 88px);
+
 
   border-radius: 16px;
   overflow: hidden;
