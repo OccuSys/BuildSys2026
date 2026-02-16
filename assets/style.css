@@ -3,7 +3,7 @@
 
   /* desktop sticky header height (approx) */
   --header-height: 120px;
-  --anchor-gap: 14px;
+  --anchor-gap: 18px;
 
   /* anchor offset MUST follow header height */
   --anchor-offset: calc(var(--header-height) + 14px);
