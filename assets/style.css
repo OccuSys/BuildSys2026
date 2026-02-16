@@ -291,7 +291,7 @@ h1{
 
   background-image: url("/assets/ribbon.svg");
   background-repeat: no-repeat;
-  background-position: 50% 55%; 
+  background-position: center; 
   background-size: 1400px auto;
 
   opacity: 0.95;
