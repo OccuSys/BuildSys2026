@@ -3,6 +3,7 @@
 
   /* desktop sticky header height (approx) */
   --header-height: 120px;
+  --anchor-gap: 14px;
 
   /* anchor offset MUST follow header height */
   --anchor-offset: calc(var(--header-height) + 14px);
@@ -126,8 +127,13 @@ body{
   margin: 0 auto;
 }
 
-/* ✅ FIX: Anchor offset for sticky header (desktop + mobile) */
-[id]{ scroll-margin-top: var(--anchor-offset); }
+/* /* ✅ FIX: Anchor offset for sticky header (desktop + mobile) */
+[id]{ scroll-margin-top: var(--anchor-offset); } */
+
+/* Any element with an id will scroll below the sticky header */
+[id]{
+  scroll-margin-top: calc(var(--header-h) + var(--anchor-gap));
+}
 
 /* Hero block */
 .hero-block{
