@@ -14,17 +14,17 @@ permalink: /
       Occupant-Centric Energy Systems (OccuSys)
     </div>
 
-    <p class="hero-sub">
+  <p class="hero-sub">
       Modeling and Control Beyond Static Boundaries: Integrating human-building interaction, dynamic comfort, and grid-responsive control.
-    </p>
+  </p>
 
-    <div class="hero-meta">
-      <span class="pill"><strong>Submission</strong> April 10, 2026 (AoE)</span>
-      <span class="pill"><strong>Notification</strong> April 20, 2026</span>
-      <span class="pill"><strong>Camera-ready</strong> May 5, 2026</span>
-      <a class="btn primary small" href="#submission">Submit</a>
-    </div>
+  <div class="hero-meta">
+    <span class="pill"><strong>Submission</strong> April 10, 2026 (AoE)</span>
+    <span class="pill"><strong>Notification</strong> April 20, 2026</span>
+    <span class="pill"><strong>Camera-ready</strong> May 5, 2026</span>
+    <a class="btn primary small" href="#submission">Submit</a>
   </div>
+</div>
 
   <div class="hero-ribbon">
     <div class="ribbon-back"></div>
