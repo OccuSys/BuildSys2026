@@ -252,10 +252,6 @@ h1{
   font-size: 14px;
 }
 
-/* =========================
-   Ribbon (stable marquee)
-   ========================= */
-
 /* ===============================
    HERO RIBBON (Clean ACM Style)
    =============================== */
@@ -277,32 +273,24 @@ h1{
   z-index: 1;
 }
 
-/* --- FRONT LAYER --- */
 .hero-ribbon .ribbon-front{
-  position: absolute;
-  inset: 0;
-
   background-image: url("/assets/ribbon.svg");
   background-repeat: repeat-x;
   background-position: 0 50%;
-  background-size: 1600px auto;
-
-  animation: ribbon-scroll 40s linear infinite;
+  background-size: 700px auto;   /* denser */
+  opacity: 0.85;
+  animation: none !important;    /* static */
 }
 
-/* --- BACK LAYER (slower, lighter) --- */
 .hero-ribbon .ribbon-back{
-  position: absolute;
-  inset: 0;
-  opacity: 0.35;
-
   background-image: url("/assets/ribbon.svg");
   background-repeat: repeat-x;
-  background-position: 0 50%;
-  background-size: 1600px auto;
-
-  animation: ribbon-scroll 70s linear infinite reverse;
+  background-position: 220px 50%; /* slight offset */
+  background-size: 700px auto;
+  opacity: 0.35;
+  animation: none !important;     /* static */
 }
+
 
 /* --- Smooth Infinite Scroll --- */
 @keyframes ribbon-scroll{
