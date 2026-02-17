@@ -87,7 +87,11 @@ Registration is handled through the official
 - **Camera-ready:** May 5, 2026  
 
 ---
+## Program {#program}
 
+The workshop agenda and speaker lineup will be posted here after notifications.
+
+---
 ## Organizing Committee {#organization}
 
 - Prof. Zoltan Nagy (TU Eindhoven)  
