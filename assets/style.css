@@ -42,13 +42,13 @@ body{
   line-height:1.65;
   color: var(--text);
 
-  /* background: #ffffff; */
+  background: white;
 
-  background:
-    radial-gradient(1000px 520px at 75% 25%, rgba(0,183,199,0.12), transparent 58%),
+  /* background:
     radial-gradient(1200px 600px at 15% 10%, rgba(122,77,255,0.14), transparent 58%),
+    radial-gradient(1000px 520px at 75% 25%, rgba(0,183,199,0.12), transparent 58%),
     radial-gradient(900px 520px at 60% 80%, rgba(144,232,176,0.10), transparent 58%),
-    linear-gradient(180deg, var(--bg0) 0%, var(--bg1) 55%, var(--bg0) 100%);
+    linear-gradient(180deg, var(--bg0) 0%, var(--bg1) 55%, var(--bg0) 100%); */
 }
 
 
