@@ -142,6 +142,18 @@ body{
   margin: 0 auto;
 }
 
+/* Base content styling */
+.main a {
+  color: #1e40af;   /* academic blue */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+
 /* /* ✅ FIX: Anchor offset for sticky header (desktop + mobile) */
 [id]{ scroll-margin-top: var(--anchor-offset); } */
 
@@ -165,6 +177,7 @@ body{
     url("banff.jpg") center / cover no-repeat; */
 
   box-shadow: 0 18px 60px rgba(15,23,42,0.14);
+  
 
   /* room for ribbon background */
   padding: 26px 26px 40px;
@@ -353,8 +366,8 @@ h1{
 }
 
 /* Base content styling */
-a{ color: rgba(15,23,42,0.92); }
-a:hover{ color: rgba(15,23,42,0.98); }
+/* a{ color: rgba(15,23,42,0.92); } */
+/* a:hover{ color: rgba(15,23,42,0.98); } */
 
 ul{ margin: 10px 0 0 20px; }
 li{ margin: 6px 0; color: var(--text); }
