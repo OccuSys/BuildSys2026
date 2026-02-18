@@ -20,10 +20,12 @@
   --muted: rgba(51,65,85,0.72);
 
   /* header (lighter charcoal glass) */
-  --header-bg: rgba(55, 60, 70, 0.86);
+  --header-bg: #1e293b;
+  /* --header-bg: rgba(30, 41, 59, 0.94);   /* deeper slate, less see-through */
+  --header-bg: rgba(55, 60, 70, 0.86); */
   --header-text: rgba(255,255,255,1.0);
-  --header-muted: rgba(255,255,255,0.72);
-  --header-border: rgba(255,255,255,0.12);
+  --header-muted: rgba(255,255,255,0.78);
+  --header-border: rgba(255,255,255,0.10);
 
   --accentA: #7a4dff;
   --accentB: #00b7c7;
@@ -74,8 +76,8 @@ body{
   padding: 18px 0;
 
   background: var(--header-bg);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   border-bottom: 1px solid var(--header-border);
 }
 
@@ -98,7 +100,7 @@ body{
 
 .brand-subtitle{
   font-size: 14px;
-  color: var(--header-muted);
+  color: rgba(255,255,255,0.80);
   margin-top: 6px;
 }
 
@@ -125,8 +127,8 @@ body{
 }
 
 .nav a:hover{
-  background: rgba(255,255,255,0.10);
-  border-color: rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.18);
   transform: translateY(-1px);
   color: #fff;
 }
