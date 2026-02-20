@@ -91,7 +91,7 @@ The workshop agenda and speaker lineup will be posted here after notifications.
 
 - Prof. Zoltan Nagy (TU Eindhoven)  
 - Prof. Michael Kane (Northeastern University)  
-- Dr. Maharshi Pathak (Northeastern University)  
+- Maharshi Pathak (Northeastern University)  
 - Dr. Martin Mosteiro Romero (TU Delft)  
 - Dr. Wei Luo (TU Eindhoven)  
 - Ava Mohammadi (TU Eindhoven)
