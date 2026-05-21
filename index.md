@@ -49,41 +49,6 @@ The workshop aims to:
 
 ---
 
-## Topics of Interest {#topics}
-
-We invite original research, position papers, and work-in-progress submissions on all aspects of occupant behavior modeling and control for energy management. Topics include, but are not limited to:
-
-- **Modeling Approaches:** Data-driven vs. physics-based vs. hybrid models; Personal comfort models and preference learning; Occupancy detection and prediction methods; etc.
-- **Control and Optimization:** Occupant-centric controls; Adaptive and personalized comfort control; Model predictive control with behavior forecasting; Privacy-preserving controls; etc.
-- **Beyond Static Comfort Boundaries:** Adaptive thermal comfort models in practice; Context-dependent comfort; Thermal comfort equity and individual differences; etc.
-- **Data and Benchmarking:** Longitudinal studies and real-world deployment; Wearable sensors and physiological monitoring; Privacy, ethics, and user acceptance; etc.
-- **Integration with Energy Systems:** Demand response enabled by occupant behavior prediction; Thermal energy storage and occupant flexibility; Building-to-grid services considering occupant comfort; etc.
-- **Theory and Methods:** Interpretability and explainability in ML-based models; Validation and verification methodologies; Interdisciplinary approaches; etc.
-
----
-
-## Submission {#submission}
-
-Submissions must be unpublished and not under review for any other venue. Papers must be at most 4 pages (single-spaced, US Letter 8.5” × 11”), including figures, tables, and appendices. The format must follow the official <a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener">ACM proceedings template (sigconf format)</a> (LaTeX preferred or Word) and comply with ACM formatting requirements (9-pt font). Authors must anonymize their manuscripts by enabling the `anonymous` option and using the `anonsuppress` section where appropriate. Papers that do not comply with size, formatting, or anonymization requirements will not be reviewed.
-
-All papers must be in Portable Document Format (PDF) and submitted via
-
-<a href="https://occusys26.hotcrp.com/" target="_blank" rel="noopener">
-  occusys26.hotcrp.com
-</a>.
-
-Registration is handled through  
-<a href="https://buildsys.acm.org/2026/" target="_blank" rel="noopener">
-  buildsys.acm.org/2026
-</a>.
-
----
-
-## Important Dates (AoE) {#dates}
-
-- **Submission:** April 17, 2026    
-- **Notification:** April 24, 2026  
-- **Camera-ready:** May 5, 2026  
 
 ---
 ## Program {#program}
@@ -146,15 +111,53 @@ Human-System Identification and Control: Lessons from Healthcare to Grid-Interac
 <p><strong>Abstract:</strong></p>
 
 <p>
-Smart health systems provide a valuable model for a central challenge in smart buildings: how to identify, predict, and improve human-system behavior in everyday environments.
+Smart health systems provide a valuable model for a central challenge in smart buildings: how to identify, predict, and improve human-system behavior in everyday environments. In healthcare, system identification, control theory, and unobtrusive sensing have been used to model patient behaviors, detect meaningful changes in routines, and design personalized interventions.
 </p>
-
 <p>
-This presentation examines human-system identification and control across smart health and the smart built environment, exploring how control-theoretic models and unobtrusive sensing can support occupant modeling and adaptive interventions in buildings.
+This presentation examines human-system identification and control across smart health and the smart built environment. We explore control-theoretic models of human behavior used to predict and improve patient health behaviors, and we consider how similar ideas can support occupant modeling in buildings. We also survey the broader smart health landscape, emphasizing shared challenges such as noisy field data, individual differences, delayed feedback, privacy, and interventions that must work within daily life.
 </p>
+<p>
+We reflect on applying these ideas to a longitudinal study of occupant thermostat use and other human-building behaviors in homes. Finally, we contrast the strengths and pitfalls of these distinct modeling philosophies, providing a definitive roadmap for modeling human behavior to improve well-being of people and the built environment.
+</p>
+
 
 </div>
 </div>
+## Topics of Interest {#topics}
+
+We invite original research, position papers, and work-in-progress submissions on all aspects of occupant behavior modeling and control for energy management. Topics include, but are not limited to:
+
+- **Modeling Approaches:** Data-driven vs. physics-based vs. hybrid models; Personal comfort models and preference learning; Occupancy detection and prediction methods; etc.
+- **Control and Optimization:** Occupant-centric controls; Adaptive and personalized comfort control; Model predictive control with behavior forecasting; Privacy-preserving controls; etc.
+- **Beyond Static Comfort Boundaries:** Adaptive thermal comfort models in practice; Context-dependent comfort; Thermal comfort equity and individual differences; etc.
+- **Data and Benchmarking:** Longitudinal studies and real-world deployment; Wearable sensors and physiological monitoring; Privacy, ethics, and user acceptance; etc.
+- **Integration with Energy Systems:** Demand response enabled by occupant behavior prediction; Thermal energy storage and occupant flexibility; Building-to-grid services considering occupant comfort; etc.
+- **Theory and Methods:** Interpretability and explainability in ML-based models; Validation and verification methodologies; Interdisciplinary approaches; etc.
+
+---
+
+## Submission {#submission}
+
+Submissions must be unpublished and not under review for any other venue. Papers must be at most 4 pages (single-spaced, US Letter 8.5” × 11”), including figures, tables, and appendices. The format must follow the official <a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener">ACM proceedings template (sigconf format)</a> (LaTeX preferred or Word) and comply with ACM formatting requirements (9-pt font). Authors must anonymize their manuscripts by enabling the `anonymous` option and using the `anonsuppress` section where appropriate. Papers that do not comply with size, formatting, or anonymization requirements will not be reviewed.
+
+All papers must be in Portable Document Format (PDF) and submitted via
+
+<a href="https://occusys26.hotcrp.com/" target="_blank" rel="noopener">
+  occusys26.hotcrp.com
+</a>.
+
+Registration is handled through  
+<a href="https://buildsys.acm.org/2026/" target="_blank" rel="noopener">
+  buildsys.acm.org/2026
+</a>.
+
+---
+
+## Important Dates (AoE) {#dates}
+
+- **Submission:** April 17, 2026    
+- **Notification:** April 24, 2026  
+- **Camera-ready:** May 5, 2026  
 
 ---
 ## Organizing Committee {#organization}
