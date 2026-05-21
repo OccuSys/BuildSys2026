@@ -126,6 +126,36 @@ This keynote presents an integrated view of how these layers can work together, 
 </div>
 </div>
 
+<div style="text-align:center; margin-top:60px;">
+
+<img src="/assets/Misha_Pavel.jpg" alt="Misha Pavel"
+style="width:260px; height:260px; object-fit:cover; border-radius:50%; border:6px solid #1f2a8a; box-shadow:0 8px 20px rgba(0,0,0,0.15);">
+
+<h3 style="margin-top:18px; margin-bottom:8px;">Prof. Misha Pavel</h3>
+
+<p style="margin-top:0; font-size:18px;">
+<strong>Northeastern University</strong>
+</p>
+
+<p style="font-size:24px; font-weight:700; max-width:900px; margin:25px auto 15px auto; line-height:1.35;">
+Human-System Identification and Control: Lessons from Healthcare to Grid-Interactive Buildings
+</p>
+
+<div style="max-width:900px; margin:0 auto; text-align:left; line-height:1.8; font-size:18px;">
+
+<p><strong>Abstract:</strong></p>
+
+<p>
+Smart health systems provide a valuable model for a central challenge in smart buildings: how to identify, predict, and improve human-system behavior in everyday environments.
+</p>
+
+<p>
+This presentation examines human-system identification and control across smart health and the smart built environment, exploring how control-theoretic models and unobtrusive sensing can support occupant modeling and adaptive interventions in buildings.
+</p>
+
+</div>
+</div>
+
 ---
 ## Organizing Committee {#organization}
 
