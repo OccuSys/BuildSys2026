@@ -3,13 +3,37 @@ layout: default
 title: Home
 permalink: /
 ---
-<section class="hero-block" id="home"> <div class="container"> <div class="hero-top"> <div class="badge"> <span class="badge-dot"></span> Occupant-Centric Energy Systems (OccuSys) </div> <p class="hero-sub"> Modeling and Control Beyond Static Boundaries: Integrating human-building interaction, dynamic comfort, and grid-responsive control. </p>
-<div class="hero-meta">
-  <span class="pill"><strong>Workshop</strong> June 22, 2026</span>
-  <span class="pill"><strong>Location</strong> Banff, Canada</span>
-  <span class="pill"><strong>BuildSys 2026</strong></span>
-  <a class="btn primary small" href="https://buildsys.acm.org/2026/registration/" target="_blank" rel="noopener">Register</a>
-</div>
+<section class="hero-block" id="home">
+  <div class="container">
+    <div class="hero-top">
+
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Occupant-Centric Energy Systems (OccuSys)
+      </div>
+
+      <p class="hero-sub">
+        A workshop at ACM BuildSys 2026 exploring occupant-centric modeling, adaptive comfort, human-building interaction, and grid-responsive control.
+      </p>
+
+      <div class="hero-meta">
+        <span class="pill"><strong>Workshop</strong> June 22, 2026</span>
+        <span class="pill"><strong>Location</strong> Banff, Canada</span>
+        <span class="pill"><strong>ACM BuildSys 2026</strong></span>
+
+        <a
+          class="btn primary small"
+          href="https://buildsys.acm.org/2026/"
+          target="_blank"
+          rel="noopener"
+        >
+          Register
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
 ---
 
 ## About the Workshop {#about}
