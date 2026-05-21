@@ -23,7 +23,7 @@ permalink: /
 
         <a
           class="btn primary small"
-          href="https://buildsys.acm.org/2026/"
+          href="https://buildsys.acm.org/2026/registration/"
           target="_blank"
           rel="noopener"
         >
