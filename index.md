@@ -13,7 +13,7 @@ permalink: /
       </div>
 
       <p class="hero-sub">
-        A workshop at ACM BuildSys 2026 exploring occupant-centric modeling, adaptive comfort, human-building interaction, and grid-responsive control.
+        Modeling and Control Beyond Static Boundaries: Integrating human-building interaction, dynamic comfort, and grid-responsive control.
       </p>
 
       <div class="hero-meta">
@@ -59,7 +59,7 @@ The workshop aims to:
 ---
 ## Program {#program}
 
-### Keynote Speaker
+### Keynote Speakers
 
 <div style="text-align:center; margin-top:30px;">
 
