@@ -3,28 +3,12 @@ layout: default
 title: Home
 permalink: /
 ---
-
-<section class="hero-block" id="home">
-  <div class="container">
-    <div class="hero-top">
-      <div class="badge">
-        <span class="badge-dot"></span>
-        Occupant-Centric Energy Systems (OccuSys)
-      </div>
-
-      <p class="hero-sub">
-        Modeling and Control Beyond Static Boundaries: Integrating human-building interaction, dynamic comfort, and grid-responsive control.
-      </p>
-
-      <div class="hero-meta">
-        <span class="pill"><strong>Submission</strong> April 17, 2026 (AoE)</span>
-        <span class="pill"><strong>Notification</strong> April 24, 2026</span>
-        <span class="pill"><strong>Camera-ready</strong> May 5, 2026</span>
-        <a class="btn primary small" href="https://occusys26.hotcrp.com/" target="_blank" rel="noopener">Submit</a>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="hero-meta">
+  <span class="pill"><strong>Workshop</strong> June 22, 2026</span>
+  <span class="pill"><strong>Location</strong> Banff, Canada</span>
+  <span class="pill"><strong>BuildSys 2026</strong></span>
+  <a class="btn primary small" href="https://buildsys.acm.org/2026/registration/" target="_blank" rel="noopener">Register</a>
+</div>
 ---
 
 ## About the Workshop {#about}
@@ -46,9 +30,6 @@ The workshop aims to:
 1. Share frameworks, datasets, and best practices for occupant-centric modeling and control  
 2. Identify research gaps and future directions in adaptive comfort and human-aware energy systems  
 3. Foster interdisciplinary collaboration between academia and industry  
-
----
-
 
 ---
 ## Program {#program}
@@ -123,6 +104,9 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 
 </div>
 </div>
+
+---
+
 ## Topics of Interest {#topics}
 
 We invite original research, position papers, and work-in-progress submissions on all aspects of occupant behavior modeling and control for energy management. Topics include, but are not limited to:
