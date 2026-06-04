@@ -131,8 +131,6 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 </div>
 
 
-## Program {#program}
-
 <div style="overflow-x:auto; margin-top:30px;">
 
 <table style="width:100%; border-collapse:collapse; font-size:16px;">
