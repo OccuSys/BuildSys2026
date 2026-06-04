@@ -130,6 +130,104 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 </div>
 </div>
 
+## Program {#program}
+
+<div style="overflow-x:auto; margin-top:30px;">
+
+<table style="width:100%; border-collapse:collapse; font-size:16px;">
+
+<tr style="background:#1f2a8a; color:white;">
+<th style="padding:14px; text-align:left; width:18%;">Time</th>
+<th style="padding:14px; text-align:left;">Session</th>
+</tr>
+
+<tr>
+<td style="padding:12px; border-bottom:1px solid #ddd;"><strong>07:00 – 08:00</strong></td>
+<td style="padding:12px; border-bottom:1px solid #ddd;">Breakfast</td>
+</tr>
+
+<tr>
+<td style="padding:12px; border-bottom:1px solid #ddd;"><strong>08:00 – 08:05</strong></td>
+<td style="padding:12px; border-bottom:1px solid #ddd;">
+Welcome<br>
+<span style="color:#666;">W. Luo / M. Kane</span>
+</td>
+</tr>
+
+<tr style="background:#eef3ff;">
+<td style="padding:14px; border-bottom:1px solid #ddd;"><strong>08:05 – 08:45</strong></td>
+<td style="padding:14px; border-bottom:1px solid #ddd;">
+<strong>Keynote:</strong> Closing the Loop on the Human Body: Sensing, Modeling, and Control for Occupant-Centric Buildings<br>
+<span style="color:#555;">D. Khovalyg</span>
+</td>
+</tr>
+
+<tr style="background:#eef3ff;">
+<td style="padding:14px; border-bottom:1px solid #ddd;"><strong>08:45 – 09:25</strong></td>
+<td style="padding:14px; border-bottom:1px solid #ddd;">
+<strong>Keynote:</strong> Human-System Identification and Control: Lessons from Healthcare to Grid-Interactive Buildings<br>
+<span style="color:#555;">M. Pavel</span>
+</td>
+</tr>
+
+<tr style="background:#f7f7f7;">
+<td style="padding:14px; border-bottom:1px solid #ddd;"><strong>09:25 – 10:00</strong></td>
+<td style="padding:14px; border-bottom:1px solid #ddd;">
+<strong>Panel: Occupant-centric Controls</strong><br>
+<span style="color:#666;">Moderated by W. Luo & A. Mohammadi</span>
+
+<ul style="margin-top:10px;">
+<li>Behaviour-based thermal control in Indian Homes</li>
+<li>Considering Causality toward Robust Occupant-Centric Control</li>
+<li>Scalable Adaptive AC Control in Real Sleep Environments</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td style="padding:12px; border-bottom:1px solid #ddd;"><strong>10:00 – 10:30</strong></td>
+<td style="padding:12px; border-bottom:1px solid #ddd;">Coffee Break</td>
+</tr>
+
+<tr style="background:#eef9f0;">
+<td style="padding:14px; border-bottom:1px solid #ddd;"><strong>10:30 – 12:00</strong></td>
+<td style="padding:14px; border-bottom:1px solid #ddd;">
+<strong>Activity:</strong> Messy Data, Shared Methods: A Hands-On Exchange with the Whole Energy Homes Longitudinal Dataset on Occupant Behaviors in their Home<br>
+<span style="color:#666;">M. Kane & M. Pathak</span>
+</td>
+</tr>
+
+<tr>
+<td style="padding:12px; border-bottom:1px solid #ddd;"><strong>12:00 – 13:00</strong></td>
+<td style="padding:12px; border-bottom:1px solid #ddd;">Lunch</td>
+</tr>
+
+<tr style="background:#f7f7f7;">
+<td style="padding:14px; border-bottom:1px solid #ddd;"><strong>13:00 – 13:50</strong></td>
+<td style="padding:14px; border-bottom:1px solid #ddd;">
+<strong>Panel: Occupant Simulations and Assessment</strong><br>
+<span style="color:#666;">Moderated by W. Luo & A. Mohammadi</span>
+</td>
+</tr>
+
+<tr style="background:#eef9f0;">
+<td style="padding:14px; border-bottom:1px solid #ddd;"><strong>13:50 – 14:45</strong></td>
+<td style="padding:14px; border-bottom:1px solid #ddd;">
+<strong>Activity:</strong> Interactive Discussion and Synthesis<br>
+<span style="color:#666;">Moderated by M. Kane, M. Pathak & W. Luo</span>
+</td>
+</tr>
+
+</table>
+</div>
+
+<br>
+
+<p style="font-size:15px; color:#666;">
+<strong>Keynote format:</strong> 25–30 minute presentation + 10–15 minute discussion<br>
+<strong>Panel format:</strong> 7 minute presentation + 3 minute discussion per paper
+</p>
+
 ---
 
 ## Topics of Interest {#topics}
