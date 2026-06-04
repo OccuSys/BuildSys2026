@@ -130,7 +130,6 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 </div>
 </div>
 
-## Program {#program}
 
 <div style="overflow-x:auto; margin-top:30px;">
 
