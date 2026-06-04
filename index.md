@@ -131,6 +131,8 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 </div>
 
 
+## Program {#program}
+
 <div style="overflow-x:auto; margin-top:30px;">
 
 <table style="width:100%; border-collapse:collapse; font-size:16px;">
@@ -148,7 +150,7 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 <tr>
 <td style="padding:12px; border-bottom:1px solid #ddd;"><strong>08:00 – 08:05</strong></td>
 <td style="padding:12px; border-bottom:1px solid #ddd;">
-Welcome<br>
+<strong>Welcome</strong><br>
 <span style="color:#666;">W. Luo / M. Kane</span>
 </td>
 </tr>
@@ -175,10 +177,19 @@ Welcome<br>
 <strong>Panel: Occupant-centric Controls</strong><br>
 <span style="color:#666;">Moderated by W. Luo & A. Mohammadi</span>
 
-<ul style="margin-top:10px;">
-<li>Behaviour-based thermal control in Indian Homes</li>
-<li>Considering Causality toward Robust Occupant-Centric Control</li>
-<li>Scalable Adaptive AC Control in Real Sleep Environments</li>
+<ul style="margin-top:12px; line-height:1.6;">
+<li>
+<strong>Behaviour-based thermal control in Indian Homes</strong><br>
+<span style="color:#666;">K. Panicker, P. Anand, A. George</span>
+</li>
+<li>
+<strong>Considering Causality toward Robust Occupant-Centric Control</strong><br>
+<span style="color:#666;">J. Ko, L. Wang, S. Lee</span>
+</li>
+<li>
+<strong>Scalable Adaptive AC Control in Real Sleep Environments: A Pilot Deployment with Lightweight Reinforcement Learning</strong><br>
+<span style="color:#666;">W. Zhang, A. Chong, S. Schiavon, C. Miller</span>
+</li>
 </ul>
 </td>
 </tr>
@@ -206,6 +217,29 @@ Welcome<br>
 <td style="padding:14px; border-bottom:1px solid #ddd;">
 <strong>Panel: Occupant Simulations and Assessment</strong><br>
 <span style="color:#666;">Moderated by W. Luo & A. Mohammadi</span>
+
+<ul style="margin-top:12px; line-height:1.6;">
+<li>
+<strong>OccuReward: LLM-Guided Occupant-Centric Reward Shaping for Demographic Equity in Grid-Interactive Buildings</strong><br>
+<span style="color:#666;">S. Zaregarizi, K. Yavari</span>
+</li>
+<li>
+<strong>Towards Generative Occupants: LLM Agents in Physics-Based Building Simulation</strong><br>
+<span style="color:#666;">L. Nicholas, S. Gauthier, E. Gerding, S. Stein</span>
+</li>
+<li>
+<strong>Research of Residential Occupant Behavior Establishment for Building Energy Simulation</strong><br>
+<span style="color:#666;">P. Fang, Y. Tang, K. Huang, R. Hwang</span>
+</li>
+<li>
+<strong>Enhancing Resilience in Residential Buildings: Assessing Comfort under Blackout Scenarios with a Modular Multi-Zone White-Box Modeling Approach</strong><br>
+<span style="color:#666;">H. Cheng, V. Hagenmeyer, H. Çakmak</span>
+</li>
+<li>
+<strong>Simulation of Temperature in a Naturally Ventilated Office Space Using Machine Learning and Comparison with Traditional Whole-Building Temperature Modelling</strong><br>
+<span style="color:#666;">C. Watson, S. Gauthier, C. Vanderwel, S. Stein</span>
+</li>
+</ul>
 </td>
 </tr>
 
@@ -213,7 +247,11 @@ Welcome<br>
 <td style="padding:14px; border-bottom:1px solid #ddd;"><strong>13:50 – 14:45</strong></td>
 <td style="padding:14px; border-bottom:1px solid #ddd;">
 <strong>Activity:</strong> Interactive Discussion and Synthesis<br>
-<span style="color:#666;">Moderated by M. Kane, M. Pathak & W. Luo</span>
+<span style="color:#666;">Moderated by M. Kane, M. Pathak, W. Luo & A. Mohammadi</span>
+
+<p style="margin-top:10px;">
+In closing, the workshop will feature an interactive discussion with the audience and speakers to synthesize a path toward an interdisciplinary research roadmap for human-system model development and use.
+</p>
 </td>
 </tr>
 
