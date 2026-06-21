@@ -177,16 +177,17 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 
 <ul style="margin-top:12px; line-height:1.6;">
 <li>
-<strong>Behaviour-based thermal control in Indian Homes</strong><br>
-<span style="color:#666;">K. Panicker, P. Anand, A. George</span>
+<strong>Scalable Adaptive AC Control in Real Sleep Environments: A Pilot Deployment with Lightweight Reinforcement Learning</strong><br>
+<span style="color:#666;">W. Zhang, A. Chong, S. Schiavon, C. Miller</span>
 </li>
+
 <li>
 <strong>Considering Causality toward Robust Occupant-Centric Control</strong><br>
 <span style="color:#666;">J. Ko, L. Wang, S. Lee</span>
 </li>
 <li>
-<strong>Scalable Adaptive AC Control in Real Sleep Environments: A Pilot Deployment with Lightweight Reinforcement Learning</strong><br>
-<span style="color:#666;">W. Zhang, A. Chong, S. Schiavon, C. Miller</span>
+<strong>Behaviour-based thermal control in Indian Homes</strong><br>
+<span style="color:#666;">K. Panicker, P. Anand, A. George</span>
 </li>
 </ul>
 </td>
@@ -217,14 +218,7 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 <span style="color:#666;">Moderated by W. Luo & A. Mohammadi</span>
 
 <ul style="margin-top:12px; line-height:1.6;">
-<li>
-<strong>OccuReward: LLM-Guided Occupant-Centric Reward Shaping for Demographic Equity in Grid-Interactive Buildings</strong><br>
-<span style="color:#666;">S. Zaregarizi, K. Yavari</span>
-</li>
-<li>
-<strong>Towards Generative Occupants: LLM Agents in Physics-Based Building Simulation</strong><br>
-<span style="color:#666;">L. Nicholas, S. Gauthier, E. Gerding, S. Stein</span>
-</li>
+
 <li>
 <strong>Research of Residential Occupant Behavior Establishment for Building Energy Simulation</strong><br>
 <span style="color:#666;">P. Fang, Y. Tang, K. Huang, R. Hwang</span>
@@ -236,6 +230,14 @@ We reflect on applying these ideas to a longitudinal study of occupant thermosta
 <li>
 <strong>Simulation of Temperature in a Naturally Ventilated Office Space Using Machine Learning and Comparison with Traditional Whole-Building Temperature Modelling</strong><br>
 <span style="color:#666;">C. Watson, S. Gauthier, C. Vanderwel, S. Stein</span>
+</li>
+<li>
+<strong>OccuReward: LLM-Guided Occupant-Centric Reward Shaping for Demographic Equity in Grid-Interactive Buildings</strong><br>
+<span style="color:#666;">S. Zaregarizi, K. Yavari</span>
+</li>
+<li>
+<strong>Towards Generative Occupants: LLM Agents in Physics-Based Building Simulation</strong><br>
+<span style="color:#666;">L. Nicholas, S. Gauthier, E. Gerding, S. Stein</span>
 </li>
 </ul>
 </td>
