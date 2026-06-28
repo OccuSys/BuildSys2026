@@ -307,12 +307,12 @@ Registration is handled through
 ## Organizing Committee {#organization}
 
 - Prof. Zoltan Nagy (TU Eindhoven)  
-- Prof. Michael Kane (Northeastern University)    
+- Prof. Michael Kane (Northeastern University)
+- Dr. Wei Luo (TU Eindhoven)     
 - Dr. Martin Mosteiro Romero (TU Delft)
-- Dr. Wei Luo (TU Eindhoven) 
 - Maharshi Pathak (Northeastern University)  
 - Ava Mohammadi (TU Eindhoven)
-- Mahnaz Vahdat (Northeastern University)  
+ 
     
 
 ---
